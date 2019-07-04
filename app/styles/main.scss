@@ -1,0 +1,79 @@
+// bower:scss
+// endbower
+ 
+@import 'menu';
+$colorPrimario: #00796b;
+$colorEnfasis: #4db6ac;
+
+.mainContent{
+  padding-left: 300px;
+  font-size: 20px;
+  
+  @media screen and (max-width: 992px){
+    padding-left: 0px;
+  }
+}
+.page-title{
+  padding-left: 20px;
+  font-size: 20px;
+}
+.page-footer{
+  padding-left: 300px;
+  padding-top: 10px;
+  line-height: 30px!important;
+  margin-top: 5%;
+  margin-bottom: 0px!important;
+  min-height: 90px!important;
+  height: auto!important;
+  @media screen and (max-width: 992px){
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+.paginationTable{
+  display: block;
+}
+.deleteButton{
+  margin-top: 3%;
+}
+.AddReto{
+  border-style: dashed;
+  border-color: #00796b;
+}
+.retoAddIcon{
+  font-size: 70px!important;
+  margin-top: 8%;
+  margin-bottom: 10%;
+}
+.competidorCard{
+  padding: 0px;
+  @media screen and (max-width: 600px){
+    width: 300px!important;
+  }
+}
+.noBoxShadow{
+  box-shadow: none!important;
+}
+.input-field label {
+     /*color: #000;*/
+	 color: #000000
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #4db6ac!important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid $colorPrimario!important;
+  box-shadow: 0 1px 0 0 $colorPrimario!important;
+}
+
+
+/*.picker__date-display {
+    text-align: left;
+    background-color: #B21B50!important;
+    color: #fff;
+    padding: 18px;
+    font-weight: 300;
+}*/
+

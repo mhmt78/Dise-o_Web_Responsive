@@ -1,0 +1,27 @@
+<table class="bordered responsive-table">
+	<thead class="black-text">
+		<tr>
+			<th></th>
+			<th>Fecha</th>
+			<th>Hora Inicial</th>
+			<th>Hora Final</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each suenos}}
+		<tr>
+			<td>
+				<input type="checkbox" id="productSelection{{@index}}" class="filled-in primaryCheckbox tableCheckbox"/>
+				<label for="productSelection{{@index}}"></label>
+				<label>
+					<input type="checkbox" />
+						<span></span>
+				</label>
+			</td>
+			<td>{{fecha}}</td>
+			<td>{{horaIni}}</td>
+			<td>{{horaFin}}</td>			
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
